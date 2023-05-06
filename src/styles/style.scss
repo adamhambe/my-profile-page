@@ -1,0 +1,22 @@
+html {
+	font-size: 62.5%; /* Makes 1rem 10px, makes it easier to work with rems */
+	font-family: "Courier New", Courier, monospace;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body {
+	font-size: 1.6rem; /* Reset so that 1em is 16px as expected */
+	margin: 0;
+	padding: 0;
+}
+
+#app {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
