@@ -1,23 +1,29 @@
+
+
+<script lang="ts" >
+import { defineComponent } from 'vue';
+import { RouterLink } from 'vue-router';
+import ExpenseTracker from '../ExpenseTracker/ExpenseTracker.vue';
+export default defineComponent({
+    components: { ExpenseTracker }
+});
+</script>
+
 <template>
 	<div class="standard-page-layout" id="profile">
-		<NavbarComp />
 		<div class="standard-page">
-			<ul class="grid-container">
-				<li class="grid-item">
-					<router-link to="/task-manager">Task Manager</router-link>
+			<ul class="flex-container">
+				<li class="flex-item">
+					<router-link to="/fitness-tracker">Fitness Tracker</router-link>
+				</li>
+				<li class="flex-item">
+					<router-link to="/habit-tracker">Habit Tracker</router-link>
+				</li>
+				<li class="flex-item">
+					<router-link to="/expense-tracker">Expense Tracker</router-link>
 				</li>
 			</ul>
 		</div>
 	</div>
 </template>
-
-<script lang="ts" >
-import { defineComponent } from 'vue';
-import { RouterLink } from 'vue-router';
-
-export default defineComponent({
-
-
-});
-</script>
 <style scoped src="./style.scss" lang="scss"></style>
