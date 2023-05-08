@@ -21,7 +21,9 @@ export default defineComponent({
 					<router-link to="/expense-tracker">Expense Tracker</router-link>
 				</li>
 			</ul>
+
 		</div>
+		<router-view />
 	</div>
 </template>
 <style scoped src="./style.scss" lang="scss"></style>
