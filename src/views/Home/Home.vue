@@ -1,5 +1,5 @@
 <template>
-	<header class="standard-page-layout">
+	<header class="standard-page-layout" id="home">
 		<div id="portrait">
 			<h1>{{ name }}</h1>
 			<h2>{{ jobTitle }}</h2>
@@ -7,18 +7,20 @@
 				<img :src="avatarUrl" alt="..." width="250" height="250" />
 			</div>
 		</div>
-		<a class="scroll-down" href="#profile" v-smooth-scroll>
+		<router-link to="/#about" class="scroll-down">
 			<span>
-				<i class="fas fa-chevron-down"> </i>
+				<i class="fas fa-chevron-down"></i>
 			</span>
-		</a>
+		</router-link>
 	</header>
 </template>
   
 <script lang="ts">
 import { ref, defineComponent } from 'vue';
+import { RouterLink } from 'vue-router'
 
 export default defineComponent({
+	components: { RouterLink },
 	setup() {
 		const name = ref('ADAM HAMBE');
 		const jobTitle = ref('FULL STACK DEVELOPER');
