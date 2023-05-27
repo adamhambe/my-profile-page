@@ -3,6 +3,7 @@ html {
 	font-family: "Courier New", Courier, monospace;
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+	scroll-padding-top: 8em;
 }
 body {
 	font-size: 1.6rem; /* Reset so that 1em is 16px as expected */
@@ -19,4 +20,8 @@ ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+}
+
+.navbar-placeholder {
+	height: 5em; /* Adjust the height to match your Navbar height */
 }
