@@ -1,5 +1,5 @@
 <template>
-	<div class="fixed-navbar-standard-page-layout" id="projects">
+	<div class="standard-page-layout sticky-navbar" id="projects">
 		<h1> Projects </h1>
 	</div>
 </template>
