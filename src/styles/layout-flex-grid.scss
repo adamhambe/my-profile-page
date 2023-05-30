@@ -1,0 +1,620 @@
+/*  Display ··· */
+.l-flex {
+    display: flex;
+}
+
+.l-inline-flex {
+    display: inline-flex;
+}
+
+.l-grid {
+    display: grid;
+}
+
+.l-inline-grid {
+    display: inline-grid;
+}
+
+/*  Flex direction ··· */
+.l-flex-row {
+    flex-direction: row;
+}
+
+.l-flex-col {
+    flex-direction: column;
+}
+
+/*  Flex wrap ··· */
+.l-flex-wrap {
+    flex-wrap: wrap;
+}
+
+.l-flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+/*  Flex grow ··· */
+.l-flex-grow {
+    flex-grow: 1;
+}
+
+.l-flex-grow-0 {
+    flex-grow: 1;
+}
+
+/*  Grid template columns ··· */
+/* 
+    Utilities for specifying the 
+    columns in a grid layout.
+*/
+.l-grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.l-grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.l-grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.l-grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.l-grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.l-grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+/*  Grid column start / end ··· */
+/* 
+    Utilities for controlling how 
+    elements are sized and placed 
+    across grid columns.
+*/
+.l-col-auto {
+    grid-column: auto;
+}
+
+.l-row-1 {
+    grid-row: 1;
+}
+
+.l-col-span-1 {
+    grid-column: span 1 / span 1;
+}
+
+.l-col-span-2 {
+    grid-column: span 2 / span 2;
+}
+
+.l-col-span-3 {
+    grid-column: span 3 / span 3;
+}
+
+.l-col-span-4 {
+    grid-column: span 4 / span 4;
+}
+
+.l-col-span-5 {
+    grid-column: span 5 / span 5;
+}
+
+.l-col-span-6 {
+    grid-column: span 6 / span 6;
+}
+
+.l-col-span-full {
+    grid-column: 1 / -1;
+}
+
+.l-col-start-1 {
+    grid-column-start: 1;
+}
+
+.l-col-start-2 {
+    grid-column-start: 2;
+}
+
+.l-col-start-3 {
+    grid-column-start: 3;
+}
+
+.l-col-start-4 {
+    grid-column-start: 4;
+}
+
+.l-col-start-5 {
+    grid-column-start: 5;
+}
+
+.l-col-start-6 {
+    grid-column-start: 6;
+}
+
+.l-col-start-7 {
+    grid-column-start: 7;
+}
+
+.l-col-start-auto {
+    grid-column-start: auto;
+}
+
+.l-col-end-1 {
+    grid-column-end: 1;
+}
+
+.l-col-end-2 {
+    grid-column-end: 2;
+}
+
+.l-col-end-3 {
+    grid-column-end: 3;
+}
+
+.l-col-end-4 {
+    grid-column-end: 4;
+}
+
+.l-col-end-5 {
+    grid-column-end: 5;
+}
+
+.l-col-end-6 {
+    grid-column-end: 6;
+}
+
+.l-col-end-7 {
+    grid-column-end: 7;
+}
+
+.l-col-end-auto {
+    grid-column-end: auto;
+}
+
+/*  Grid template rows ··· */
+/* 
+    Utilities for specifying 
+    the rows in a grid layout.
+*/
+.l-grid-rows-1 {
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+
+.l-grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.l-grid-rows-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+
+.l-grid-rows-4 {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.l-grid-rows-5 {
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+}
+
+.l-grid-rows-6 {
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+
+.l-grid-rows-none {
+    grid-template-rows: none;
+}
+
+/*  Grid row start / end ··· */
+/* 
+    Utilities for controlling how 
+    elements are sized and placed 
+    across grid columns.
+*/
+.l-row-auto {
+    grid-row: auto;
+}
+
+.l-row-span-1 {
+    grid-row: span 1 / span 1;
+}
+
+.l-row-span-2 {
+    grid-row: span 2 / span 2;
+}
+
+.l-row-span-3 {
+    grid-row: span 3 / span 3;
+}
+
+.l-row-span-4 {
+    grid-row: span 4 / span 4;
+}
+
+.l-row-span-5 {
+    grid-row: span 5 / span 5;
+}
+
+.l-row-span-6 {
+    grid-row: span 6 / span 6;
+}
+
+.l-row-span-full {
+    grid-row: 1 / -1;
+}
+
+.l-row-start-1 {
+    grid-row-start: 1;
+}
+
+.l-row-start-2 {
+    grid-row-start: 2;
+}
+
+.l-row-start-3 {
+    grid-row-start: 3;
+}
+
+.l-row-start-4 {
+    grid-row-start: 4;
+}
+
+.l-row-start-5 {
+    grid-row-start: 5;
+}
+
+.l-row-start-6 {
+    grid-row-start: 6;
+}
+
+.l-row-start-7 {
+    grid-row-start: 7;
+}
+
+.l-row-start-auto {
+    grid-row-start: auto;
+}
+
+.l-row-end-1 {
+    grid-row-end: 1;
+}
+
+.l-row-end-2 {
+    grid-row-end: 2;
+}
+
+.l-row-end-3 {
+    grid-row-end: 3;
+}
+
+.l-row-end-4 {
+    grid-row-end: 4;
+}
+
+.l-row-end-5 {
+    grid-row-end: 5;
+}
+
+.l-row-end-6 {
+    grid-row-end: 6;
+}
+
+.l-row-end-7 {
+    grid-row-end: 7;
+}
+
+.l-row-end-auto {
+    grid-row-end: auto;
+}
+
+/*  Grid auto flow ··· */
+/* 
+    Utilities for controlling how 
+    elements in a grid are 
+    auto-placed.
+*/
+.l-grid-flow-row {
+    grid-auto-flow: row;
+}
+
+.l-grid-flow-col {
+    grid-auto-flow: column;
+}
+
+.l-grid-flow-dense {
+    grid-auto-flow: dense;
+}
+
+.l-grid-flow-row-dense {
+    grid-auto-flow: row dense;
+}
+
+.l-grid-flow-col-dense {
+    grid-auto-flow: column dense;
+}
+
+/*  Grid auto columns ··· */
+/* 
+    Utilities for controlling the 
+    size of implicitly-created 
+    grid columns.
+*/
+.l-auto-cols-auto {
+    grid-auto-columns: auto;
+}
+
+.l-auto-cols-min {
+    grid-auto-columns: min-content;
+}
+
+.l-auto-cols-max {
+    grid-auto-columns: max-content;
+}
+
+.l-auto-cols-fr {
+    grid-auto-columns: minmax(0, 1fr);
+}
+
+/*  Grid auto rows ··· */
+/* 
+    Utilities for controlling the 
+    size of implicitly-created 
+    grid rows.
+*/
+.l-auto-rows-auto {
+    grid-auto-rows: auto;
+}
+
+.l-auto-rows-min {
+    grid-auto-rows: min-content;
+}
+
+.l-auto-rows-max {
+    grid-auto-rows: max-content;
+}
+
+.l-auto-rows-fr {
+    grid-auto-rows: minmax(0, 1fr);
+}
+
+/*  Gap ··· */
+/* 
+    Utilities for controlling 
+    gutters between grid and 
+    flexbox items.
+*/
+.l-gap-4 {
+    gap: 0.4rem; /* 4px */
+}
+
+.l-gap-x-4 {
+    column-gap: 0.4rem; /* 4px */
+}
+
+.l-gap-y-4 {
+    row-gap: 0.4rem; /* 4px */
+}
+
+.l-gap-8 {
+    gap: 0.8rem; /* 8px */
+}
+
+.l-gap-x-8 {
+    column-gap: 0.8rem; /* 8px */
+}
+
+.l-gap-y-8 {
+    row-gap: 0.8rem; /* 8px */
+}
+
+.l-gap-16 {
+    gap: 1.6rem; /* 16px */
+}
+
+.l-gap-x-16 {
+    column-gap: 1.6rem; /* 16px */
+}
+
+.l-gap-y-16 {
+    row-gap: 1.6rem; /* 16px */
+}
+
+.l-gap-24 {
+    gap: 2.4rem; /* 24px */
+}
+
+.l-gap-x-24 {
+    column-gap: 2.4rem; /* 24px */
+}
+
+.l-gap-y-24 {
+    row-gap: 2.4rem; /* 24px */
+}
+
+.l-gap-48 {
+    gap: 4.8rem; /* 48px */
+}
+
+.l-gap-x-48 {
+    column-gap: 4.8rem; /* 48px */
+}
+
+.l-gap-y-48 {
+    row-gap: 4.8rem; /* 48px */
+}
+
+.l-gap-96 {
+    gap: 9.6rem; /* 96px */
+}
+
+.l-gap-x-96 {
+    column-gap: 9.6rem; /* 96px */
+}
+
+.l-gap-y-96 {
+    row-gap: 9.6rem; /* 96px */
+}
+
+/*  Justify content ··· */
+/* 
+    Utilities for controlling how 
+    flex and grid items are positioned 
+    along a container's main axis.
+*/
+.l-justify-start {
+    justify-content: flex-start;
+}
+
+.l-justify-end {
+    justify-content: flex-end;
+}
+
+.l-justify-center {
+    justify-content: center;
+}
+
+.l-justify-between {
+    justify-content: space-between;
+}
+
+.l-justify-around {
+    justify-content: space-around;
+}
+
+.l-justify-evenly {
+    justify-content: space-evenly;
+}
+
+/*  Justify items ··· */
+/* 
+    Utilities for controlling how
+    grid items are aligned along 
+    their inline axis.
+*/
+.l-justify-items-start {
+    justify-items: start;
+}
+
+.l-justify-items-end {
+    justify-items: end;
+}
+
+.l-justify-items-center {
+    justify-items: center;
+}
+
+.l-justify-items-stretch {
+    justify-items: stretch;
+}
+
+/*  Justify self ··· */
+/* 
+    Utilities for controlling how 
+    an individual grid item is 
+    aligned along its inline axis.
+*/
+.l-justify-self-auto {
+    justify-self: auto;
+}
+
+.l-justify-self-start {
+    justify-self: start;
+}
+
+.l-justify-self-end {
+    justify-self: end;
+}
+
+.l-justify-self-center {
+    justify-self: center;
+}
+
+.l-justify-self-stretch {
+    justify-self: stretch;
+}
+
+/*  Align content ··· */
+/* 
+    Utilities for controlling how
+    rows are positioned in 
+    multi-row flex and grid 
+    containers.
+*/
+.l-content-center {
+    align-content: center;
+}
+
+.l-content-start {
+    align-content: flex-start;
+}
+
+.l-content-end {
+    align-content: flex-end;
+}
+
+.l-content-between {
+    align-content: space-between;
+}
+
+.l-content-around {
+    align-content: space-around;
+}
+
+.l-content-evenly {
+    align-content: space-evenly;
+}
+
+.l-content-baseline {
+    align-content: baseline;
+}
+
+/*  Align items ··· */
+/* 
+    Utilities for controlling how 
+    flex and grid items are 
+    positioned along a container's 
+    cross axis.
+*/
+.l-items-start {
+    align-items: flex-start;
+}
+
+.l-items-end {
+    align-items: flex-end;
+}
+
+.l-items-center {
+    align-items: center;
+}
+
+.l-items-baseline {
+    align-items: baseline;
+}
+
+.l-items-stretch {
+    align-items: stretch;
+}
+/* Flex */
+/*
+    Utilities for controlling how
+    flex with grow or shrink to
+    fit inside the flex container
+*/
+
+.l-flex-1 {
+    flex: 1;
+}
+
+.l-white-space-nowrap {
+    white-space: nowrap;
+}
+
+/* Align itself */
+.l-align-self__center {
+    align-self: center;
+}
