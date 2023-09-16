@@ -20,4 +20,5 @@ import Navbar from './components/Navbar/Navbar.vue';
 @import './styles/layout-flex-grid.scss';
 @import './styles/page-layouts.scss';
 @import './styles/style.scss';
+@import './styles/colors.scss';
 </style>
