@@ -1,14 +1,14 @@
 <template>
 	<header class="standard-page-layout header primary-bg-color" id="home">
 		<div id="portrait" class="primary-text-color">
-			<h1>{{ name }}</h1>
-			<h2>{{ jobTitle }}</h2>
+			<h1 class="primary-text-color">{{ name }}</h1>
+			<h2 class="primary-text-color">{{ jobTitle }}</h2>
 			<div>
 				<img :src="avatarUrl" alt="..." width="300" height="300" />
 			</div>
 		</div>
 		<div class="tech-stack">
-			<h3>Tech Stack</h3>
+			<h3 class="primary-text-color">Tech Stack</h3>
 			<ul class="skills">
 				<li class="skill"><img :src="vueLogo" alt="..." title="Vue" hover="Vue" height="45" width="45"></li>
 				<li class="skill"><img :src="javaLogo" alt="..." title="Java" height="50" width="50"></li>
